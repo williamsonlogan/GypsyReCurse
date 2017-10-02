@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{216B125F-FBEA-3F49-CCDC-854AE8612BBD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlatformerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FinishPoint.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlatformerController.cs" Line="9" Column="3" />
+      <File FileName="Assets/Scripts/LevelLoader.cs" Line="45" Column="5" />
+      <File FileName="Assets/Platform Control/PlatCharController.cs" Line="97" Column="67" />
+      <File FileName="Assets/Scripts/FinishPoint.cs" Line="4" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

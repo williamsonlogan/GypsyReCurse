@@ -20,9 +20,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4813045530551174}
   - component: {fileID: 212753225888423748}
-  - component: {fileID: 61169880559589754}
   - component: {fileID: 251755507366365804}
-  m_Layer: 0
+  - component: {fileID: 68782282418321184}
+  - component: {fileID: 68968752774984436}
+  - component: {fileID: 68425056279648804}
+  - component: {fileID: 68871345593282428}
+  m_Layer: 8
   m_Name: grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,31 +45,74 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61169880559589754
-BoxCollider2D:
+--- !u!68 &68425056279648804
+EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1460189975096988}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 41e0563197f0c4fd68aae45d3c21a052, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Offset: {x: -0.5, y: 0}
   m_EdgeRadius: 0
+  m_Points:
+  - {x: 0, y: -0.5}
+  - {x: 0, y: 0.5}
+--- !u!68 &68782282418321184
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1460189975096988}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.5}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.5, y: 0}
+  - {x: 0.5, y: 0}
+--- !u!68 &68871345593282428
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1460189975096988}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.5, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0, y: -0.5}
+  - {x: 0, y: 0.5}
+--- !u!68 &68968752774984436
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1460189975096988}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.5}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.5, y: 0}
+  - {x: 0.5, y: 0}
 --- !u!212 &212753225888423748
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -99,7 +145,7 @@ SpriteRenderer:
   m_SortingLayerID: -228533457
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 573b4943dfc775a47ab0ecfcb4a9f229, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 5d58f7eb71a64496a99be3ea4821c863, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

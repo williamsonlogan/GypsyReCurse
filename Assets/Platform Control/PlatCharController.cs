@@ -94,7 +94,7 @@ public class PlatCharController : MonoBehaviour {
 		 
 	void Update() {
 		// Get____Down and Get____Up are only reliable inside of Update(), not FixedUpdate().
-		if( Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1") )
+		if( Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump") )
 			jumping = true;
 
 	}

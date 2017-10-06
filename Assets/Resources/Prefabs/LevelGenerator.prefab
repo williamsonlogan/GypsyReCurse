@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6030259600e4dbe8c0332b8e0d17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelMap: {fileID: 2800000, guid: 7863d85f87aee479ea3abc05a480d25f, type: 3}
+  levelMap: {fileID: 0}
   colorToPrefab:
   - color:
       serializedVersion: 2
@@ -59,5 +59,29 @@ MonoBehaviour:
     prefab: {fileID: 1107747033842146, guid: 793c2c0b85f084a948bfe1606445d7ea, type: 2}
   - color:
       serializedVersion: 2
-      rgba: 4278224127
+      rgba: 4278255615
     prefab: {fileID: 1976423537927662, guid: 03ab1f477041b47f69d6f92b023ff34e, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278255360
+    prefab: {fileID: 1460189975096988, guid: cb5ebc2a7877144c3b3826f9b246488d, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278241280
+    prefab: {fileID: 1734129665358132, guid: f9f75627ae9974d96aaf16c751fb885d, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278215680
+    prefab: {fileID: 1284582653925538, guid: e20b3389777604184928ea9442b6d078, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278190335
+    prefab: {fileID: 1547917337997560, guid: 371e4e3003db44d39bcf331290219187, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278190280
+    prefab: {fileID: 1998411252715334, guid: b420031307163488e940ee7d0a66a854, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278190180
+    prefab: {fileID: 1269943705057948, guid: bc48cff640774454a97447c3c6b09d06, type: 2}

@@ -113,6 +113,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EnemyController.cs" />
     <Compile Include="Assets\Platform Control\MovingPlatform.cs" />
     <Compile Include="Assets\Platform Control\PlatCharController.cs" />
     <Compile Include="Assets\Scripts\FinishPoint.cs" />

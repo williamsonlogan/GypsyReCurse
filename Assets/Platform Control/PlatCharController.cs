@@ -46,6 +46,7 @@ public class PlatCharController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator>();
+        Physics2D.IgnoreCollision(this.GetComponent<BoxCollider2D>(), GameObject.FindGameObjectWithTag("Enemy").GetComponent<BoxCollider2D>(), true);
 	}
 
 	void OnCollisionEnter2D(Collision2D col) {
@@ -210,4 +211,19 @@ public class PlatCharController : MonoBehaviour {
 		else
 			anim.SetFloat("ySpeed", RelativeVelocity().y);
 	}
+
+    public void OnTriggerEnter2D(Collider2D c)
+    {
+        if(c.tag == "Enemy")
+        {
+            Debug.Log("Trigger Hit!");
+            if (gameObject.transform.position.x < GameObject.FindWithTag("Enemy").transform.position.x)
+            {
+                GetComponent<Rigidbody2D>().AddForce((Vector2.left * 6000), ForceMode2D.Force);
+            }
+            else{
+                GetComponent<Rigidbody2D>().AddForce((Vector2.right * 6000), ForceMode2D.Force);
+            }
+        }
+    }
 }
